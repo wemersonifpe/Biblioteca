@@ -1,14 +1,11 @@
-<?php
-	defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Lista de produtos da tabela produtos">
+	<meta name="description" content="Lista de produtos da tabela produtos"-->
 	<title>Lista de produtos da tabela livros</title>
 
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -22,7 +19,7 @@
 		<div class="row">
 			<h1>Lista de livros</h1>
 
-			<a href="application/controller/livros/add" class="btn btn-success margin-button15">Novo Livro</a>
+			<a class="btn btn-success margin-button15" href="<?php base_url('livrosCriar') ?>">Novo Livro</a>
 
 			<table class="table table-bordered">
 				<thead>

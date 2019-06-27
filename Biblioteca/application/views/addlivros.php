@@ -1,15 +1,12 @@
-<?php
-	defined('BASEPATH') OR exit('No direct script access allowed');
-?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Lista de produtos da tabela produtos">
-	<title>Atualizar cadastro</title>
+	<meta name="description" content="Lista de produtos da tabela produtos"-->
+	<title>Adicionar cadastro</title>
 
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
@@ -18,10 +15,10 @@
 	<div class="container">
 		<div class="row">
 			
-			<h1>Atualizar livro</h1>
+			<h1>Adicionar livro</h1>
 			<ol class="breadcrumb">
 				<li><a href="/">Inicio</a></li>
-				<li class="active">Atualizar livro</li>
+				<li class="active">Adicionar livro</li>
 			</ol>
 
 			<!--formulario de novo cadastro-->
@@ -57,7 +54,7 @@
 
 				<div class="row">
 					<div class="col-md-2">
-						<button type="submit" class="btn btn-primary">Atualizar</button>
+						<button type="submit" class="btn btn-primary">Salvar</button>
 					</div>
 				</div>
 
